@@ -14,7 +14,7 @@ const Billing = () => (
       <div className="absolute z-[0] -left-1/2 buttom-0 w-[50%] h-[50%] rounded-full pink__gradient" />
     </div>
 
-    <diV className={layout.sectionInfo}>
+    <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         Easily control your <br className="sm:block hidden" /> billing
         invoicing.
@@ -35,7 +35,7 @@ const Billing = () => (
           className="w-[128px] h-[42px] object-contain  cursor-pointer"
         />
       </div>
-    </diV>
+    </div>
   </section>
 );
 
